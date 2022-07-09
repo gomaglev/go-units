@@ -93,6 +93,6 @@ func lookupConv(from, to string) (c Conversion, err error) {
 }
 
 // list all conversions
-func ListConversions() {
+func ListConversions() []Conversion {
 	return convs
 }
