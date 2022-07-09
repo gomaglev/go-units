@@ -91,3 +91,8 @@ func lookupConv(from, to string) (c Conversion, err error) {
 	}
 	return c, errors.New("conversion not found")
 }
+
+// list all conversions
+func ListConversions() {
+	return convs
+}
